@@ -7,3 +7,5 @@ Este repositorio fue creado durante clases, probando.
 20/08/2025
 
 ## Laboratorio de prueba
+
+http://146.235.244.11:8080/
