@@ -8,4 +8,8 @@ Este repositorio fue creado durante clases, probando.
 
 ## Laboratorio de prueba
 
+<<<<<<< HEAD
 http://146.235.244.11:8080/
+=======
+Hola gente de Youtube
+>>>>>>> 468901d1805963fde98d00041cc0a9c26fa2fd1b
