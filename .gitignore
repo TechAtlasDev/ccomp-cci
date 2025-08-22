@@ -1,2 +1,4 @@
-test1.exe
-test1.o
+*.exe
+*.o
+bin/
+obj/
