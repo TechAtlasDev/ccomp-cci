@@ -11,3 +11,6 @@ Este repositorio fue creado durante clases, probando.
 http://146.235.244.11:8080/
 
 Hola gente de Youtube
+
+> [!IMPORTANT]
+> Si quieres modificar la página web, puedes hacerlo usando la carpeta web
