@@ -2,16 +2,16 @@
 // Este laboratorio se enfoca en el registro de datos
 
 // ANALIZANDO BITS
-// Short
+// Short almacena 2 bytes
+//
 
 #include <iostream>
 
 using namespace std;
 
-int var = 0;
-short var1 = 1;
+char var1 = 'a';
 
 int main() {
-    cout << "La longitud de la variable short es: " << sizeof(var1);
+    cout << "Valor de la variable 1: " << var1;
     return 0;
 }
