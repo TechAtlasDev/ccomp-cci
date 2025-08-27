@@ -14,3 +14,7 @@ Hola gente de Youtube
 
 > [!IMPORTANT]
 > Si quieres modificar la página web, puedes hacerlo usando la carpeta web
+
+## Pizarra de la clase
+
+https://excalidraw.com/#room=0023a14847dca0556807,wuYB5oFPdn08F1LpgvQXKg
