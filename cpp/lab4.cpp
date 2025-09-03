@@ -31,12 +31,12 @@ int main() {
     int variable1 = 123;
 
     int centenas = variable1 / 100;
-    int unidades = variable1 % 10;
-    int decenas = variable1-unidades / 10;
+    int decenas = (variable1 % 100) / 10;
+    int unidades =  variable1 % 10;
 
-    cout << "Unidades: " << unidades;
-    cout << "Decenas: " << decenas;
-    cout << "Centenas: " << centenas;
+    cout << "Unidades: " << unidades << endl;
+    cout << "Decenas: " << decenas << endl;
+    cout << "Centenas: " << centenas << endl;
 
     return 0;
 }
