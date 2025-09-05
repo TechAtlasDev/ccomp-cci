@@ -30,8 +30,9 @@ int main() {
             middle_rango += 1;
         }
 
+
         if (primo) {
-            cout << "El " << num << " es primo" << endl;
+            cout << "El " << num << " es primo";
         }
 
         num += 1;
