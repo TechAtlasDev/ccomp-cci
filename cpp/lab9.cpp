@@ -39,13 +39,10 @@ int main() {
 
         if (i<index_mitad) {
             conteo_mitad_inferior += i;
-
         } else if (i==index_mitad && !(longitud_par)) {
             mitad += i;
-
         } else {
             conteo_mitad_superior += i;
-
         }
     }
 
