@@ -17,3 +17,16 @@ https://excalidraw.com/#room=0023a14847dca0556807,wuYB5oFPdn08F1LpgvQXKg
 - **Práctica 2:** Calcular los decimales de una división entre dos números.
     - **Limitaciones:** Los números que serán divididos tienen que ser enteros, no se puede usar double.
     - **Solución:** Como ambos números son enteros, significa que la división será entera. Para obtener los decimales, se puede usar el residuo de la división. Primero se calcula la parte entera del resultado, luego se multiplica el residuo por 10 y se divide nuevamente por el divisor para obtener el primer decimal. Este proceso se repite multiplicando sucesivamente por 10 para obtener más decimales de precisión. (Se puede usar un while o un for: For para una cantidad limitada de dígitos | While para una cantidad ilimitada de dígitos)
+
+- **Práctica 3:** Implementar una función recursiva que sea el equivalente a:
+<pre>
+    <code lang="cpp">
+        for (int i = 0, int j = 0; i<70 || j % 25 == 0) {
+            cout << "I: " << i << endl;
+            cout << "J: " << j << endl;
+            i++;
+            j++;
+        }
+    </code>
+</pre>
+    - **Limitaciones:**
