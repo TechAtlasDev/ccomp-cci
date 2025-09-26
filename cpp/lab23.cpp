@@ -13,19 +13,14 @@ void print_list(int arr[], int tamano) {
     cout << "]" << endl;
 }
 
-void intercambio(int &a, int &b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
-
 void invertir(int arr[], int tamano, int pos=0) {
     if (pos == tamano/2) {
         return;
     } else {
         int a = arr[pos];
         int b = arr[tamano-pos-1];
-        intercambio(a, b);
+        arr[pos] = b;
+        arr[tamano-pos-1] = a;
         pos++;
         invertir(arr, tamano, pos);
     }

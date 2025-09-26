@@ -28,5 +28,24 @@ https://excalidraw.com/#room=0023a14847dca0556807,wuYB5oFPdn08F1LpgvQXKg
             j++;
         }
     </code>
-</pre>
     - **Limitaciones:**
+
+
+- **Práctica 4:** Generar una matriz con datos ordenados de manera aleatoria y ordenarlos de la siguiente forma:
+<pre>
+    <code>
+        +---+---+---+---+
+        |   |   |   |   |
+        |   |   |   |   |
+        +---+---+---+---+
+        |   |   |   |   |
+        |   |   |   |   |
+        +---+---+---+---+
+        |   |   |   |   |
+        |   |   |   |   |
+        +---+---+---+---+
+        |   |   |   |   |
+        |   |   |   |   |
+        +---+---+---+---+
+    </code>
+
