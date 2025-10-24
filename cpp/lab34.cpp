@@ -1,5 +1,5 @@
-// Laboratorio 33
-// Implementando el algoritmo de Bubble Sort de forma modular
+// Laboratorio 34
+// Implementando el algoritmo de Bubble Sort de forma recursiva
 
 #include <iostream>
 
@@ -24,16 +24,22 @@ void intercambiar(int *a, int *b) {
     *b = temp;
 }
 
-// Función que implementa el algoritmo de Bubble Sort
-void bubbleSort(int *arr, int tamano) {
+// Función recursiva que implementa el algoritmo de Bubble Sort
+void bubbleSortRecursivo(int *arr, int tamano) {
+    // Caso base: si el tamaño es 1, ya está ordenado
+    if (tamano == 1) {
+        return;
+    }
+
+    // Una pasada del algoritmo para "burbujeo"
     for (int i = 0; i < tamano - 1; i++) {
-        // Aquí vamos "burbujeando" el elemento más grande hacia el final
-        for (int j = 0; j < tamano - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                intercambiar(&arr[j], &arr[j + 1]);
-            }
+        if (arr[i] > arr[i + 1]) {
+            intercambiar(&arr[i], &arr[i + 1]);
         }
     }
+
+    // Llamada recursiva para el resto del array
+    bubbleSortRecursivo(arr, tamano - 1);
 }
 
 int main() {
@@ -44,7 +50,7 @@ int main() {
     printArray(arr, tamano);
 
     // Ordenando el array
-    bubbleSort(arr, tamano);
+    bubbleSortRecursivo(arr, tamano);
 
     cout << "Array ordenado: ";
     printArray(arr, tamano);
